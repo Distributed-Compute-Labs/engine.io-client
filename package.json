@@ -43,7 +43,7 @@
     "debug": "~4.3.1",
     "engine.io-parser": "~5.0.3",
     "ws": "~8.2.3",
-    "xmlhttprequest-ssl": "~2.0.0"
+    "xmlhttprequest-ssl": "git+https://github.com/Distributed-Compute-Labs/node-XMLHttpRequest.git"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
