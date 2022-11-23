@@ -76,7 +76,7 @@
     "zuul-ngrok": "4.0.0"
   },
   "scripts": {
-    "compile": "rimraf ./build && tsc && tsc -p tsconfig.esm.json && ./postcompile.sh",
+    "compile": "rm -rf ./build && tsc && tsc -p tsconfig.esm.json && ./postcompile.sh",
     "test": "npm run format:check && npm run compile && if test \"$BROWSERS\" = \"1\" ; then npm run test:browser; else npm run test:node; fi",
     "test:node": "mocha --bail --reporter dot --require test/support/server.js test/index.js",
     "test:browser": "zuul test/index.js",
