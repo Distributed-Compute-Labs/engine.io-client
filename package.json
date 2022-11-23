@@ -1,5 +1,5 @@
 {
-  "name": "engine.io-client",
+  "name": "@kingsds/engine.io-client",
   "description": "Client for the realtime Engine",
   "license": "MIT",
   "version": "6.2.3",
@@ -19,7 +19,7 @@
     }
   },
   "types": "build/esm/index.d.ts",
-  "homepage": "https://github.com/socketio/engine.io-client",
+  "homepage": "https://github.com/Distributed-Compute-Labs/engine.io-client",
   "contributors": [
     {
       "name": "Guillermo Rauch",
@@ -43,7 +43,7 @@
     "debug": "~4.3.1",
     "engine.io-parser": "~5.0.3",
     "ws": "~8.2.3",
-    "xmlhttprequest-ssl": "git+https://github.com/Distributed-Compute-Labs/node-XMLHttpRequest.git"
+    "@kingsds/xmlhttprequest-ssl": "^2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -96,7 +96,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/socketio/engine.io-client.git"
+    "url": "https://github.com/Distributed-Compute-Labs/engine.io-client.git"
   },
   "files": [
     "build/",
